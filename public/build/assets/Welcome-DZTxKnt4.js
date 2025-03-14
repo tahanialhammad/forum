@@ -1,0 +1,1 @@
+import{_ as t}from"./AppLayout-CAtonFy-.js";import{c as o,o as a,w as r,g as s}from"./app-C0tMzIKd.js";const p={__name:"Welcome",setup(_){return(c,e)=>(a(),o(t,{title:"Home"},{default:r(()=>e[0]||(e[0]=[s(" page content ")])),_:1}))}};export{p as default};
