@@ -1,0 +1,1 @@
+import{_ as e}from"./AppLayout-DM9dFMC2.js";import{c as o,o as a,w as r,g as s}from"./app-DGSPsVh4.js";import"./_plugin-vue_export-helper-DlAUqK2U.js";const i={__name:"Welcome",setup(m){return(_,t)=>(a(),o(e,{title:"Home"},{default:r(()=>t[0]||(t[0]=[s(" page content ")])),_:1}))}};export{i as default};
