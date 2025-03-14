@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\SiteController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -22,3 +23,7 @@ Route::middleware([
 Route::controller(SiteController::class)->group(function () {
     Route::get('/', 'index')->name('welcome');
 });
+
+// Public routes for viewing posts
+Route::get('posts/{topic?}', [PostController::class, 'index'])->name('posts.index');
+Route::get('posts/{post}', [PostController::class, 'show'])->name('posts.show'); // Use showroute with slug
