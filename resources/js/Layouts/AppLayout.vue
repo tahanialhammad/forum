@@ -8,6 +8,7 @@ import DropdownLink from '@/Components/DropdownLink.vue';
 import NavLink from '@/Components/NavLink.vue';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import AppNavigation from './AppNavigation.vue';
+import FooterSection from './FooterSection.vue';
 
 defineProps({
     title: String,
@@ -29,19 +30,29 @@ const logout = () => {
 </script>
 
 <template>
-    <div>
+    <div class="bg-slate-950 text-slate-100">
+
         <Head :title="title" />
 
         <Banner />
 
         <div class="min-h-screen">
-     
+
             <AppNavigation />
+
+            <!-- Page Heading -->
+            <header v-if="$slots.header" class="shadow">
+                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                    <slot name="header" />
+                </div>
+            </header>
 
             <!-- Page Content -->
             <main>
                 <slot />
             </main>
         </div>
+        
+        <FooterSection />
     </div>
 </template>

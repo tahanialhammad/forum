@@ -1,1 +1,0 @@
-import{_ as t}from"./AppLayout-BcvP1PFY.js";import{c as o,o as a,w as r,g as s}from"./app-D_D2xxE_.js";const p={__name:"Welcome",setup(_){return(c,e)=>(a(),o(t,{title:"Home"},{default:r(()=>e[0]||(e[0]=[s(" page content ")])),_:1}))}};export{p as default};
