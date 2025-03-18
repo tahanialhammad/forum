@@ -272,11 +272,11 @@ const menu = [
     //     route: "dashboard",
     //     when: () => usePage().props.auth.user,
     // },
-    // {
-    //     name: "Blog",
-    //     url: route("posts.index"),
-    //     route: "posts.index",
-    // },
+    {
+        name: "Blog",
+        url: route("posts.index"),
+        route: "posts.index",
+    },
     // {
     //     name: "Create a Post",
     //     url: route("posts.create"),

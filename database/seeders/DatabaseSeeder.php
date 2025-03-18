@@ -39,7 +39,7 @@ class DatabaseSeeder extends Seeder
         ))
         ->create([
             'name' => 'Admin',
-            'email' => 'admin@examle.com',
+            'email' => 'admin@example.com',
             'is_admin' =>true,
 
         ]);
