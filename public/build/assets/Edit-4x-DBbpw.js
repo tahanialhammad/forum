@@ -1,1 +1,0 @@
-import{_ as r}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{q as o,c as s,o as c,w as e,b as p,g as _}from"./app-Dmp8HllK.js";const i={};function d(f,t){const n=o("Container"),a=o("AppLayout");return c(),s(a,{title:"Edit a Post"},{default:e(()=>[p(n,null,{default:e(()=>t[0]||(t[0]=[_(" edit post ")])),_:1})]),_:1})}const u=r(i,[["render",d]]);export{u as default};
