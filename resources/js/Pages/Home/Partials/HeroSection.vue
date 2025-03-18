@@ -17,7 +17,7 @@
                 <Circle class="absolute right-1/2 z-0" circleClass="fill-rose-500" />
             </h3>
 
-            <GradientLink  :href="route('welcome')">Contact us</GradientLink>
+            <GradientLink  :href="route('contact')">Contact us</GradientLink>
         </div>
 
         <!-- Right Section with Image -->

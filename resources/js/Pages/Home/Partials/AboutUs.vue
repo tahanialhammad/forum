@@ -28,7 +28,7 @@
                 <img
                     class="absolute -top-32 -left-20 z-10 w-40 md:w-48 lg:w-64"
                     src=""
-                    alt=""
+                    alt="3D Shape"
                 />
                 <img
                     src=""

@@ -9,7 +9,7 @@
         </div>
             <img class="absolute top-20 -left-24 z-0 w-64"
                 src=""
-                alt="">
+                alt="3d Shape">
 
             <div class="bg-slate-900 rounded-3xl p-0 my-20 md:flex w-full items-stretch">
             <!-- Card 1 -->

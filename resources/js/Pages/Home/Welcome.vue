@@ -10,14 +10,18 @@
 
                 <HeroSection />
 
+                <Portfolio :marketings="marketings"/>
+
                 <Features />
+
+                <Topics :topics="topics"/>
 
                 <Team />
                 
-                <!-- <AboutUs /> -->
+                <AboutUs />
 
+                <Blog :posts="posts" />
             </div>
-
         </Container>
     </AppLayout>
 </template>
@@ -25,8 +29,13 @@
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue';
 import HeroSection from './Partials/HeroSection.vue';
+import Portfolio from './Partials/Portfolio.vue';
 import Features from './Partials/Features.vue';
 import Team from './Partials/Team.vue';
-// import AboutUs from './Partials/AboutUs.vue';
+import AboutUs from './Partials/AboutUs.vue';
+import Blog from './Partials/Blog.vue';
+import Topics from './Partials/Topics.vue';
+
+defineProps(["posts", 'topics', 'marketings']);
 
 </script>

@@ -18,7 +18,8 @@
                 v-for="(item, index) in teams"
                 :key="index"
                 class="relative group bg-slate-900 py-10 px-20 h-80 rounded-3xl flex items-end bg-cover bg-top transition-all duration-300 ease-in-out"
-                            >
+                :style="{ backgroundImage: `url(${item.bgImage})` }"
+            >
                 <div
                     class="absolute inset-0 bg-gradient-to-t from-slate-800 via-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                     style="background-size: 200% 100%; background-position: right center;"
@@ -60,6 +61,7 @@ const teams = [
     {
         name: "Steve Bullack",
         job: "Software Developer",
+        bgImage: "",
         facebookUrl: "#",
         linkedInUrl: "#",
         instagramUrl: "#"
@@ -67,6 +69,7 @@ const teams = [
     {
         name: "Ethan Carter",
         job: "UI/UX Designer",
+        bgImage: "",
         facebookUrl: "#",
         linkedInUrl: "#",
         instagramUrl: "#"
@@ -74,6 +77,7 @@ const teams = [
     {
         name: "Emily Harper",
         job: "Digital Marketer",
+        bgImage: "",
         facebookUrl: "#",
         linkedInUrl: "#",
         instagramUrl: "#"
@@ -81,6 +85,7 @@ const teams = [
     {
         name: "Logan Brooks",
         job: "Photographer",
+        bgImage: "",
         facebookUrl: "#",
         linkedInUrl: "#",
         instagramUrl: "#"
