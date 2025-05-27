@@ -25,8 +25,8 @@
 
             <Square class="absolute top-5 right-5 z-0" />
 
-            <img src=""
-                alt="Hero Image">
+             <img src="/images/hero-image1.png"
+                           alt="Hero Image">
             <img class="absolute top-8 left-0 w-1/2"
                 src=""
                 alt="3d Shape">

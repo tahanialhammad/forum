@@ -1,0 +1,1 @@
+import{d as s,o as r,a as t,n as c}from"./app-yCF23A8R.js";const a={width:"50",height:"50",xmlns:"http://www.w3.org/2000/svg"},i={__name:"Circle",props:{circleClass:{type:String,default:"fill-none stroke-rose-500 stroke-2"}},setup(e){return(l,o)=>(r(),s("svg",a,[t("circle",{cx:"25",cy:"25",r:"5",class:c(e.circleClass)},null,2)]))}};export{i as _};
