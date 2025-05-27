@@ -28,7 +28,7 @@
              <img src="/images/hero-image1.png"
                            alt="Hero Image">
             <img class="absolute top-8 left-0 w-1/2"
-                src=""
+                src="/images/3dimage.png"
                 alt="3d Shape">
         </div>
     </div>
