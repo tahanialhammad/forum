@@ -61,7 +61,7 @@ const teams = [
     {
         name: "Steve Bullack",
         job: "Software Developer",
-        bgImage: "",
+        bgImage: "/images/team1.jpg",
         facebookUrl: "#",
         linkedInUrl: "#",
         instagramUrl: "#"
@@ -69,7 +69,7 @@ const teams = [
     {
         name: "Ethan Carter",
         job: "UI/UX Designer",
-        bgImage: "",
+        bgImage: "/images/team2.jpg",
         facebookUrl: "#",
         linkedInUrl: "#",
         instagramUrl: "#"
@@ -77,7 +77,7 @@ const teams = [
     {
         name: "Emily Harper",
         job: "Digital Marketer",
-        bgImage: "",
+        bgImage: "/images/team3.jpg",
         facebookUrl: "#",
         linkedInUrl: "#",
         instagramUrl: "#"
@@ -85,7 +85,7 @@ const teams = [
     {
         name: "Logan Brooks",
         job: "Photographer",
-        bgImage: "",
+        bgImage: "/images/team4.jpg",
         facebookUrl: "#",
         linkedInUrl: "#",
         instagramUrl: "#"

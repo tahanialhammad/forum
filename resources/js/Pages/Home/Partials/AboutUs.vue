@@ -27,11 +27,11 @@
             <div class="w-1/2 relative">
                 <img
                     class="absolute -top-32 -left-20 z-10 w-40 md:w-48 lg:w-64"
-                    src=""
+                    src="/images/ring.png"
                     alt="3D Shape"
                 />
                 <img
-                    src=""
+                    src="/images/aboutus1.png"
                     alt=""
                     class="absolute top-10 w-full"
                 />
@@ -40,7 +40,7 @@
             <!-- Right Half -->
             <div class="w-1/2">
                 <img
-                    src=""
+                    src="/images/aboutus2.png"
                     alt=""
                     class="scale-x-[-1] w-full"
                 />
