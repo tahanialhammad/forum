@@ -1,8 +1,11 @@
 <template>
   <div class="w-full">
     <!--   :imageUrl="post.image ? post.image : 'https://via.placeholder.com/300x200'" -->
+       <!--         :imageUrl="post.image ? `/storage/${post.image}` : 'https://via.placeholder.com/300x200'"
+ -->
     <Card v-for="post in posts" :key="post.id"
-        :imageUrl="post.image ? `/storage/${post.image}` : 'https://via.placeholder.com/300x200'"
+        :imageUrl="post.image ? `/storage/${post.image}?t=${Date.now()}` : 'https://via.placeholder.com/300x200'"
+
        :altText="post.title" class="mb-4">
       <!--  cardType="vertical" -->
       <!-- Card Header -->
