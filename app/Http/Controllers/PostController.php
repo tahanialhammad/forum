@@ -142,7 +142,11 @@ class PostController extends Controller
         if ($request->hasFile('image')) {
             // Delete the old image if a new one is uploaded
             if ($post->image) {
-                Storage::disk('public')->delete($post->image);
+              //  Storage::disk('public')->delete($post->image);
+                              //test voor live upload op hostinger direct te uploaden naar public/storag
+
+                  Storage::disk('public_uploads')->delete($post->image);
+
             }
 
             $data['image'] = $request->file('image')->store('posts', 'public');
