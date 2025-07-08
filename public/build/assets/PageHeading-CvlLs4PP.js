@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{d as t,o as s,k as r}from"./app-BrdhJxOR.js";const n={},c={class:"text-2xl font-bold"};function a(e,_){return s(),t("h1",c,[r(e.$slots,"default")])}const f=o(n,[["render",a]]);export{f as P};
